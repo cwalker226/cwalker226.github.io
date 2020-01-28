@@ -1,47 +1,18 @@
-<style>
-            body {
-                background-color: #efeee7;
-                margin: 0;
-                padding: 0;
-                font-family: Georgia, 'Times New Roman', Times, serif;
-                font-size: 10px;
-                line-height: 150%;
-            }
+.navBg {
+    background-color: lightseagreen;
+}
 
-            h1 {
-                color: #efeee7;
-                text-align: center;
-                background-color: black;
-                margin: 0;
-                padding-top: 20px;
-                padding-bottom: 20px;
-            }
+.mainContent {
+    margin-top: 20px;
+}
 
-            p {
-                
-            }
+.bioPic {
+    max-height: 200px;
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
 
-            .bioPic {
-                width: 200px;
-                height: 200px;
-                padding-right: 15px;
-            }
-
-            .main{
-                width: 1024px;
-                margin: 0 auto;
-                float: left;
-            }
-
-            .col1 {
-                width: 70%;
-            }
-
-            .col2 {
-                width: 30%;
-            }
-
-            a {
-                color: red;
-            }
-        </style>
+.formRow {
+    padding: 20px 0px;
+}

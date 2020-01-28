@@ -2,31 +2,51 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="assets/reset.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/style.css"/>
         <title>Student Bio</title>
     </head>
 
     <body>
         <header>
-            <h1>Student Bio</h1>
+          <nav class="navbar navbar-light bg-light navBg">
+            <a class="navbar-brand" href="#"><span class="h1">Corey Walker</span></a>
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link disabled" href="index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </nav>
         </header>
-        
-        
-        <div class="main">
-            <section>
-                <h2>Corey Walker</h2>
-                <img class="bioPic" src="images/Walker_Corey_2.jpg"/>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-            </section>
-            <section>
-                <h2>Contact Info</h2>
-                <ul>
-                    <li><strong>Email:</strong> <a href="mailto:someplace@gmail.com">someplace@gmail.com</a></li>
-                    <li><strong>GitHub:</strong> <a href="https://www.github.com/cwalker226">cwalker226</a></li>
-                    <li><strong>Portfolio:</strong> <a href="#">Coming Soon</a></li>
-                </ul>
-            </section>
+        <div class="container mainContent">
+            <div class="row">
+                <div class="col-md-10 col-sm-8 border">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h1>About Me</h1>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <img src="images/Walker_Corey_2.jpg" class="img-fluid bioPic" alt="Corey Walker"/>
+                      <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                      <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    </div>
+                  </div>                    
+                </div>
+            </div>
         </div>
+        <nav class="navbar fixed-bottom navbar-expand-lg navbar-light bg-light">
+          <div class="container justify-content-center">
+            <p>&copy; Copyright</p>
+          </div>
+        </nav>
     </body>
 </html>
