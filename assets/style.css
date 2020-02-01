@@ -1,5 +1,16 @@
-.navBg {
-    background-color: lightseagreen;
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.name {
+    color: white;
+}
+
+.navbar-brand {
+    background-color: darkseagreen;
+    width: 30%;
+    text-align: center;
 }
 
 .mainContent {
@@ -15,4 +26,40 @@
 
 .formRow {
     padding: 20px 0px;
+}
+
+.portImg {
+    height: 200px;
+}
+
+.card-img-overlay {
+    padding: 10px 0px;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+    .navbar {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .navbar-brand {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .portImg {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        bottom: 0;
+    }
 }
