@@ -9,12 +9,13 @@
 
 .navbar-brand {
     background-color: darkseagreen;
-    width: 30%;
+    width: 300px;
     text-align: center;
 }
 
 .mainContent {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .bioPic {
@@ -29,7 +30,7 @@
 }
 
 .portImg {
-    height: 200px;
+    height: 300px;
 }
 
 .card-img-overlay {
@@ -51,15 +52,5 @@
         width: 100%;
         margin: 0 auto;
         text-align: center;
-    }
-
-    .portImg {
-        height: 300px;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .footer {
-        bottom: 0;
     }
 }
