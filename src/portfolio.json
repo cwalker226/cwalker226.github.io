@@ -1,0 +1,38 @@
+[
+    {
+        "portPicSrc1": "./images/Wallaby.PNG",
+        "portPicName1": "Wallaby Meal Search",
+        "title1": "Wallaby",
+        "siteURL1": "https://cwalker226.github.io/Project-1/",
+        "repoURL1": "https://github.com/cwalker226/Project-1",
+        "portPicSrc2": "./images/randomPassword.PNG",
+        "portPicName2": "Random Password Generator",
+        "title2": "Random Password Generator",
+        "siteURL2": "https://cwalker226.github.io/randomPassword/",
+        "repoURL2": "https://github.com/cwalker226/randomPassword"
+    },
+    {
+        "portPicSrc1": "./images/Cangaroo.PNG",
+        "portPicName1": "Food Bank Inventory",
+        "title1": "Cangaroo",
+        "siteURL1": "https://cangaroo.herokuapp.com/",
+        "repoURL1": "https://github.com/cwalker226/Cangaroo",
+        "portPicSrc2": "./images/weatherDashboard.PNG",
+        "portPicName2": "Wallaby Meal Search",
+        "title2": "Weather Dashboard",
+        "siteURL2": "https://cwalker226.github.io/weatherDashboard/",
+        "repoURL2": "https://github.com/cwalker226/weatherDashboard"
+    },
+    {
+        "portPicSrc1": "./images/NoteTaker.PNG",
+        "portPicName1": "Note Taker",
+        "title1": "Note Taker",
+        "siteURL1": "https://sheltered-oasis-78510.herokuapp.com/",
+        "repoURL1": "https://github.com/cwalker226/noteTaker",
+        "portPicSrc2": "./images/burger-logo-by-vexels.png",
+        "portPicName2": "Eat Da Burger",
+        "title2": "Eat Da Burger",
+        "siteURL2": "https://safe-sierra-21477.herokuapp.com/",
+        "repoURL2": "https://github.com/cwalker226/burger"
+    }
+]
